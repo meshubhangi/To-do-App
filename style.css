@@ -1,0 +1,62 @@
+body {
+    background-color: lightgrey;
+}
+
+#input {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(85, 67, 170);
+    text-align: center;
+}
+
+#task {
+    padding: 10px;
+    color: rgb(218, 238, 238);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(36, 6, 65);
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+button#add {
+    background-color: rgb(84, 43, 138);
+}
+
+button#clear {
+    background-color: #fc8a9f;
+}
+
+button.remove {
+    padding: 5px;
+    margin-left: 20px;
+    background-color: rgb(10, 25, 41);
+    opacity: 0.5;
+}
+
+button.remove:hover {
+    background-color: rgb(5, 12, 3);
+}
+
+ul{
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(248, 203, 203);
+    font-weight: 600;
+    font-size: 1.3em;
+}
