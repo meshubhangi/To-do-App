@@ -14,7 +14,4 @@ addButton.addEventListener("click", function(){
         taskInput.value = "";
         taskList.appendChild(newItem);
     }
-    else{
-        alert("Task cannot be empty");
-    }
 });
