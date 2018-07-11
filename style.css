@@ -48,3 +48,15 @@ button.remove:hover {
     background-color: rgb(5, 12, 3);
 }
 
+ul{
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(248, 203, 203);
+    font-weight: 600;
+    font-size: 1.3em;
+}
